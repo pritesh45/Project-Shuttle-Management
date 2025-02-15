@@ -1,0 +1,46 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "startTime": "08:00 AM",
+      "endTime": "09:00 AM",
+      "startPoint": "Downtown Terminal",
+      "endPoint": "Airport",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "startTime": "09:30 AM",
+      "endTime": "10:30 AM",
+      "startPoint": "Airport",
+      "endPoint": "Shopping Mall",
+      "status": "ongoing"
+    },
+    {
+      "id": 3,
+      "startTime": "11:00 AM",
+      "endTime": "12:00 PM",
+      "startPoint": "Shopping Mall",
+      "endPoint": "Downtown Terminal",
+      "status": "upcoming"
+    }
+  ],
+  "breaks": [
+    {
+      "id": 1,
+      "type": "Lunch Break",
+      "startTime": "12:00 PM",
+      "endTime": "1:00 PM",
+      "icon": "Coffee",
+      "status": "upcoming"
+    },
+    {
+      "id": 2,
+      "type": "Rest Break",
+      "startTime": "3:00 PM",
+      "endTime": "3:15 PM",
+      "icon": "Coffee",
+      "status": "upcoming"
+    }
+  ]
+}

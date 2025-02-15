@@ -1,0 +1,41 @@
+{
+  "bookings": [
+    {
+      "date": "2025-02-12",
+      "time": "10:00 AM",
+      "route": "North Campus - South Campus",
+      "pickupLocation": "Main Street Station",
+      "dropLocation": "Business District",
+      "id": "8535",
+      "status": "pending"
+    },
+    {
+      "id": "eadb",
+      "date": "2025-02-20",
+      "time": "11:00 AM",
+      "route": "North Campus - South Campus",
+      "pickupLocation": "Terminal 2",
+      "dropLocation": "Business District",
+      "status": "pending"
+    }
+  ],
+  "profile": {
+    "name": "Lucky Kumar",
+    "email": "luckykrmail.com",
+    "phone": "07857847878"
+  },
+  "driver1": {
+    "name": "Pankaj Kumar",
+    "email": "pankaj@gmail.com",
+    "phone": "078578478",
+    "id": "1",
+    "isAvailable": true
+  },
+  "driver2": {
+    "name": "Rahul Kumar",
+    "email": "rahul@gmail.com",
+    "phone": "078578878",
+    "id": "2",
+    "isAvailable": false
+  }
+}
