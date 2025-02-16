@@ -31,290 +31,298 @@ const AdminPanel = () => {
   }, []);
 
   return (
-    <section className="px-6 py-8 bg-gray-300">
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
-          <div className="flex items-center">
-            <div className="rounded-full bg-blue-100 p-3">
-              <svg
-                className="h-6 w-6 text-blue-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
+    <div className="px-1 py-2 sm:px-2 sm:py-3 bg-gray-300">
+      <section className="px-2 py-3 sm:px-8 sm:py-8  max-w-screen">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
+            <div className="flex items-center">
+              <div className="rounded-full bg-blue-100 p-3">
+                <svg
+                  className="h-6 w-6 text-blue-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    // stroke-linecap="round"
+                    // stroke-linejoin="round"
+                    // stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <div className="ml-4">
+                <h3 className="text-sm font-medium text-gray-500">
+                  Active Trips
+                </h3>
+                <p className="text-2xl font-semibold text-gray-900">24</p>
+              </div>
             </div>
-            <div className="ml-4">
-              <h3 className="text-sm font-medium text-gray-500">
-                Active Trips
-              </h3>
-              <p className="text-2xl font-semibold text-gray-900">24</p>
+          </div>
+
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
+            <div className="flex items-center">
+              <div className="rounded-full bg-green-100 p-3">
+                <svg
+                  className="h-6 w-6 text-green-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    // stroke-linecap="round"
+                    // stroke-linejoin="round"
+                    // stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+              </div>
+              <div className="ml-4">
+                <h3 className="text-sm font-medium text-gray-500">
+                  Available Drivers
+                </h3>
+                <p className="text-2xl font-semibold text-gray-900">12</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
+            <div className="flex items-center">
+              <div className="rounded-full bg-purple-100 p-3">
+                <svg
+                  className="h-6 w-6 text-purple-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    // stroke-linecap="round"
+                    // stroke-linejoin="round"
+                    // stroke-width="2"
+                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+                  />
+                </svg>
+              </div>
+              <div className="ml-4">
+                <h3 className="text-sm font-medium text-gray-500">
+                  Today's Bookings
+                </h3>
+                <p className="text-2xl font-semibold text-gray-900">86</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
+            <div className="flex items-center">
+              <div className="rounded-full bg-yellow-100 p-3">
+                <svg
+                  className="h-6 w-6 text-yellow-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    // stroke-linecap="round"
+                    // stroke-linejoin="round"
+                    // stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  />
+                </svg>
+              </div>
+              <div className="ml-4">
+                <h3 className="text-sm font-medium text-gray-500">
+                  Active Routes
+                </h3>
+                <p className="text-2xl font-semibold text-gray-900">8</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
-          <div className="flex items-center">
-            <div className="rounded-full bg-green-100 p-3">
-              <svg
-                className="h-6 w-6 text-green-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                />
-              </svg>
-            </div>
-            <div className="ml-4">
-              <h3 className="text-sm font-medium text-gray-500">
-                Available Drivers
-              </h3>
-              <p className="text-2xl font-semibold text-gray-900">12</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
-          <div className="flex items-center">
-            <div className="rounded-full bg-purple-100 p-3">
-              <svg
-                className="h-6 w-6 text-purple-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
-                />
-              </svg>
-            </div>
-            <div className="ml-4">
-              <h3 className="text-sm font-medium text-gray-500">
-                Today's Bookings
-              </h3>
-              <p className="text-2xl font-semibold text-gray-900">86</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
-          <div className="flex items-center">
-            <div className="rounded-full bg-yellow-100 p-3">
-              <svg
-                className="h-6 w-6 text-yellow-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                />
-              </svg>
-            </div>
-            <div className="ml-4">
-              <h3 className="text-sm font-medium text-gray-500">
-                Active Routes
-              </h3>
-              <p className="text-2xl font-semibold text-gray-900">8</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* ------------------------------ */}
-      <div className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-2">
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
-          <h2 className="text-lg font-medium text-gray-900 mb-4">
-            Driver Status
-          </h2>
-          <div className="space-y-4">
-            {drivers?.map((driver, index) => (
-              <div key={index} className="flex items-center justify-between">
-                <div className="flex items-center">
-                  <div className="ml-3">
-                    <p className="text-sm font-medium text-gray-900">
-                      {driver.name}
-                    </p>
+        {/* ------------------------------ */}
+        <div className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
+            <h2 className="text-lg font-medium text-gray-900 mb-4">
+              Driver Status
+            </h2>
+            <div className="space-y-4">
+              {drivers?.map((driver, index) => (
+                <div key={index} className="flex items-center justify-between">
+                  <div className="flex items-center">
+                    <div className="ml-3">
+                      <p className="text-sm font-medium text-gray-900">
+                        {driver.name}
+                      </p>
+                    </div>
                   </div>
+                  {driver.isAvailable && (
+                    <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                      Available
+                    </span>
+                  )}
+                  {!driver.isAvailable && (
+                    <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-100 text-red-800">
+                      Unavailable
+                    </span>
+                  )}
                 </div>
-                {driver.isAvailable && (
-                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                    Available
-                  </span>
-                )}
-                {!driver.isAvailable && (
-                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-100 text-red-800">
-                    Unavailable
-                  </span>
-                )}
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
+            <h2 className="text-lg font-medium text-gray-900 mb-4">
+              Route Activity
+            </h2>
+            <div className="space-y-4">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-gray-900">
+                    Campus Loop
+                  </p>
+                  <p className="text-xs text-gray-500">4 active shuttles</p>
+                </div>
+                <div className="w-24 bg-gray-200 rounded-full h-2.5">
+                  <div
+                    className="bg-blue-600 h-2.5 rounded-full"
+                    // style="width: 75%"
+                  ></div>
+                </div>
               </div>
-            ))}
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-gray-900">
+                    Express Line
+                  </p>
+                  <p className="text-xs text-gray-500">2 active shuttles</p>
+                </div>
+                <div className="w-24 bg-gray-200 rounded-full h-2.5">
+                  <div
+                    className="bg-blue-600 h-2.5 rounded-full"
+                    // style="width: 45%"
+                  ></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        {/* ------------------------------ */}
 
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-6">
-          <h2 className="text-lg font-medium text-gray-900 mb-4">
-            Route Activity
+        <div className="flex items-center justify-between my-6">
+          <h2 className="text-xl font-semibold text-gray-900">
+            Booking Management
           </h2>
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm font-medium text-gray-900">Campus Loop</p>
-                <p className="text-xs text-gray-500">4 active shuttles</p>
-              </div>
-              <div className="w-24 bg-gray-200 rounded-full h-2.5">
-                <div
-                  className="bg-blue-600 h-2.5 rounded-full"
-                  // style="width: 75%"
-                ></div>
-              </div>
-            </div>
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm font-medium text-gray-900">
-                  Express Line
-                </p>
-                <p className="text-xs text-gray-500">2 active shuttles</p>
-              </div>
-              <div className="w-24 bg-gray-200 rounded-full h-2.5">
-                <div
-                  className="bg-blue-600 h-2.5 rounded-full"
-                  // style="width: 45%"
-                ></div>
-              </div>
-            </div>
+        </div>
+
+        <div className="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-4">
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-3">
+            <select className="block w-full rounded-md border-gray-300 text-sm focus:border-blue-500 focus:ring-blue-500">
+              <option>All Routes</option>
+              <option>Campus Loop</option>
+              <option>Express Line</option>
+              <option>Shuttle A</option>
+            </select>
+          </div>
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-3">
+            <select className="block w-full rounded-md border-gray-300 text-sm focus:border-blue-500 focus:ring-blue-500">
+              <option>All Status</option>
+              <option>Active</option>
+              <option>Completed</option>
+              <option>Cancelled</option>
+            </select>
+          </div>
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-3">
+            <input
+              type="date"
+              className="block w-full rounded-md border-gray-300 text-sm focus:border-blue-500 focus:ring-blue-500"
+            />
+          </div>
+          <div className="rounded-lg border border-neutral-200/30 bg-white p-3">
+            <input
+              type="text"
+              placeholder="Search bookings..."
+              className="block w-full rounded-md border-gray-300 text-sm focus:border-blue-500 focus:ring-blue-500"
+            />
           </div>
         </div>
-      </div>
-      {/* ------------------------------ */}
 
-      <div className="flex items-center justify-between my-6">
-        <h2 className="text-xl font-semibold text-gray-900">
-          Booking Management
-        </h2>
-      </div>
-
-      <div className="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-4">
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-3">
-          <select className="block w-full rounded-md border-gray-300 text-sm focus:border-blue-500 focus:ring-blue-500">
-            <option>All Routes</option>
-            <option>Campus Loop</option>
-            <option>Express Line</option>
-            <option>Shuttle A</option>
-          </select>
-        </div>
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-3">
-          <select className="block w-full rounded-md border-gray-300 text-sm focus:border-blue-500 focus:ring-blue-500">
-            <option>All Status</option>
-            <option>Active</option>
-            <option>Completed</option>
-            <option>Cancelled</option>
-          </select>
-        </div>
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-3">
-          <input
-            type="date"
-            className="block w-full rounded-md border-gray-300 text-sm focus:border-blue-500 focus:ring-blue-500"
-          />
-        </div>
-        <div className="rounded-lg border border-neutral-200/30 bg-white p-3">
-          <input
-            type="text"
-            placeholder="Search bookings..."
-            className="block w-full rounded-md border-gray-300 text-sm focus:border-blue-500 focus:ring-blue-500"
-          />
-        </div>
-      </div>
-
-      <div className="rounded-lg border border-neutral-200/30 bg-white">
-        <div className="overflow-x-auto">
-          <table className="min-w-full divide-y divide-neutral-200/30">
-            <thead className="bg-gray-50">
-              <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
-                  Booking ID
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
-                  Student Name
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
-                  Route
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
-                  Date & Time
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
-                  Driver
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
-                  Status
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
-                  Actions
-                </th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-neutral-200/30">
-              {bookings.map((booking, index) => (
-                <tr key={index}>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                    #{booking.id}
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="flex items-center">
-                      <div className="ml-4">
-                        <div className="text-sm font-medium text-gray-900">
-                          Lucky
+        <div className="rounded-lg border border-neutral-200/30 bg-white">
+          <div className="overflow-x-auto overscroll-contain">
+            <table className="divide-y divide-neutral-200/30 overscroll-contain">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    Booking ID
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    Student Name
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    Route
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    Date & Time
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    Driver
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    Status
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    Actions
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="bg-white divide-y divide-neutral-200/30">
+                {bookings.map((booking, index) => (
+                  <tr key={index}>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      #{booking.id}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      <div className="flex items-center">
+                        <div className="ml-4">
+                          <div className="text-sm font-medium text-gray-900">
+                            Lucky
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                    {booking.route}
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="text-sm text-gray-900">{booking.date}</div>
-                    <div className="text-sm text-gray-500">{booking.time}</div>
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                    {booking.driver ? booking.driver : "Not Assigned"}
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                      {booking.status}
-                    </span>
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                    <div className="flex space-x-2">
-                      <button className="text-blue-600 hover:text-blue-900">
-                        Edit
-                      </button>
-                      <button className="text-red-600 hover:text-red-900">
-                        Cancel
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      {booking.route}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      <div className="text-sm text-gray-900">
+                        {booking.date}
+                      </div>
+                      <div className="text-sm text-gray-500">
+                        {booking.time}
+                      </div>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      {booking.driver ? booking.driver : "Not Assigned"}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                        {booking.status}
+                      </span>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                      <div className="flex space-x-2">
+                        <button className="text-blue-600 hover:text-blue-900">
+                          Edit
+                        </button>
+                        <button className="text-red-600 hover:text-red-900">
+                          Cancel
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <section className="px-6 py-8">
+      <section className="px-2 py-3 sm:px-8 sm:py-8">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-xl font-semibold text-gray-900">
             Driver Schedule Management
@@ -329,9 +337,9 @@ const AdminPanel = () => {
               stroke="currentColor"
               viewBox="0 0 24 24">
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                // stroke-linecap="round"
+                // stroke-linejoin="round"
+                // stroke-width="2"
                 d="M15 19l-7-7 7-7"
               />
             </svg>
@@ -346,9 +354,9 @@ const AdminPanel = () => {
               stroke="currentColor"
               viewBox="0 0 24 24">
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                // stroke-linecap="round"
+                // stroke-linejoin="round"
+                // stroke-width="2"
                 d="M9 5l7 7-7 7"
               />
             </svg>
@@ -371,7 +379,7 @@ const AdminPanel = () => {
                 <div className="flex items-center mb-2">
                   <div className="h-8 w-8 rounded-full bg-gray-200 mr-3"></div>
                   <h3 className="text-sm font-medium text-gray-900">
-                  Pankaj Kumar
+                    Pankaj Kumar
                   </h3>
                 </div>
                 <div className="relative h-12">
@@ -448,7 +456,7 @@ const AdminPanel = () => {
                   <div className="h-8 w-8 rounded-full bg-gray-200"></div>
                   <div className="ml-3">
                     <p className="text-sm font-medium text-gray-900">
-                    Rohit Kumar
+                      Rohit Kumar
                     </p>
                     <p className="text-xs text-gray-500">
                       Campus Loop - 6:00 AM to 2:00 PM
@@ -464,7 +472,7 @@ const AdminPanel = () => {
                   <div className="h-8 w-8 rounded-full bg-gray-200"></div>
                   <div className="ml-3">
                     <p className="text-sm font-medium text-gray-900">
-                     Rajesh Kumar
+                      Rajesh Kumar
                     </p>
                     <p className="text-xs text-gray-500">
                       Express Route - 8:00 AM to 4:00 PM
@@ -488,7 +496,7 @@ const AdminPanel = () => {
                   <div className="h-8 w-8 rounded-full bg-gray-200"></div>
                   <div className="ml-3">
                     <p className="text-sm font-medium text-gray-900">
-                    Pawan Kumar
+                      Pawan Kumar
                     </p>
                     <p className="text-xs text-gray-500">
                       Shuttle A - 2:00 PM to 10:00 PM
@@ -503,7 +511,7 @@ const AdminPanel = () => {
           </div>
         </div>
       </section>
-    </section>
+    </div>
   );
 };
 

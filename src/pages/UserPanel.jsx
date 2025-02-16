@@ -55,13 +55,13 @@ const UserPanel = () => {
   };
 
   return (
-    <div className="w-[1024px] bg-white rounded-lg shadow-xl p-6">
+    <div className="bg-white rounded-lg shadow-xl p-6">
       <section className="booking-form">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold mb-6">Book a Shuttle</h2>
           <button>
             <Link
-              to="/profile"
+              to="/user/profile"
               className="text-white bg-blue-600 px-4 py-2 rounded-lg">
               My Profile
             </Link>
@@ -178,7 +178,7 @@ const UserPanel = () => {
                   </div>
                   <div className="space-x-2">
                     <button className="px-4 py-2 border rounded-lg hover:bg-gray-50 transition-colors">
-                      <Link to={`/bookings/edit/${booking.id}`}>Edit </Link>
+                      <Link to={`/user/bookings/edit/${booking.id}`}>Edit </Link>
                     </button>
                     {/* <button className="px-4 py-2 border border-red-500 rounded-lg hover:bg-red-50 transition-colors">
                       Cancel

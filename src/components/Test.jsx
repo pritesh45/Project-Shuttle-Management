@@ -1,8 +1,9 @@
-import React from "react";
-import Abc from "./Abc";
+import React from 'react'
 
 const Test = () => {
-  return <Abc />;
-};
+  return (
+    <div>Test</div>
+  )
+}
 
-export default Test;
+export default Test

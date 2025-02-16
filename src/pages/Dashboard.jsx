@@ -17,7 +17,7 @@ const Dashboard = () => {
       icon: Car,
       color: "bg-green-500",
       description: "Manage your routes and schedules",
-      slug: "/drivers",
+      slug: "/driver",
     },
     {
       title: "Admin",

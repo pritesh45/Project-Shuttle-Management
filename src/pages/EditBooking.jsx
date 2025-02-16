@@ -53,6 +53,7 @@ const EditBooking = () => {
       route,
       pickupLocation,
       dropLocation,
+      status: "pending",
     });
     navigate("/user");
   };
