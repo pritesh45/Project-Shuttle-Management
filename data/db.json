@@ -65,7 +65,7 @@
     "email": "pankaj@gmail.com",
     "phone": "078578478",
     "id": "1",
-    "isAvailable": false
+    "isAvailable": true
   },
   "driver2": {
     "name": "Rahul Kumar",
