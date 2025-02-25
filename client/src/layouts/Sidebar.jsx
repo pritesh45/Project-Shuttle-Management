@@ -12,7 +12,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-64 bg-gray-900 min-h-screen text-white p-5">
+    <div className="w-64 bg-gray-900 min-h-screen h-full text-white p-5">
       <h2 className="text-2xl font-bold mb-6">Shuttle Management</h2>
       <ul>
         {menuItems.map(({ path, label }) => {
